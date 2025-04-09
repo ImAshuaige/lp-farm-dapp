@@ -1,6 +1,7 @@
 # 🌾 LP Token Farming dApp
 
 A decentralized farming application built with Solidity and Vite + React on the Sepolia testnet. Users can stake LP tokens and earn reward tokens per block.
+
 ---
 
 ## 🚀 Live Demo
