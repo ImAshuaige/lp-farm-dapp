@@ -58,7 +58,7 @@ The project is organized into 4 main areas:
    - Install the [MetaMask extension](https://metamask.io/) if you haven’t already.
    - **Create a new wallet** or **connect your existing one**.
    - In MetaMask, **switch the network** to `Sepolia` testnet:
-     - Click the network dropdown → Select “Sepolia”.
+     - Click the network dropdown → Enable Show Test Network → Select “Sepolia”.
 
 2. ### ⛽ **Ensure SepoliaETH**
    - This wallet must have some SepoliaETH to pay gas fees.
@@ -106,8 +106,9 @@ The project is organized into 4 main areas:
 
 - **Solidity** (Smart Contracts)
 - **Hardhat** (Development & Deployment)
+- **Alchemy** (Sepolia RPC Provider)
 - **Ethers.js** (Frontend–Contract interaction)
-- **React.js** (Frontend)
+- **Vite + React.js** (Frontend)  
 - **MetaMask** (Wallet Integration)
 - **GitHub Pages** (Frontend hosting)
 - **Sepolia** (Testnet)
