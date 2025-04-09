@@ -162,7 +162,6 @@ contract LPFarm is Ownable{
         emit Claim(_to, _amount);
     }
 
-    /// might need to delete this one, cuz no point showing
     /// @notice Get pending rewards for a user in a pool
     /// @param _pid Pool ID to check
     /// @param _user User address
@@ -182,6 +181,8 @@ contract LPFarm is Ownable{
         return (user.amount * accRewardPerShare) / 1e18 - user.rewardDebt;
     }
 
+    /// @notice Claims the pending rewards for a user in a specified pool
+    /// @param _pid Pool ID to claim rewards from
     function claim(uint256 _pid) external {
         updatePool(_pid);
         UserInfo storage user = userInfo[_pid][msg.sender];
